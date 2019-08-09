@@ -1,4 +1,5 @@
 ---
-name: Nathalie 
----
+name: Nathalie
 
+---
+Instruments : Choeurs, percussions.
