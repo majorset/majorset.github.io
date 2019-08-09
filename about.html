@@ -1,0 +1,17 @@
+---
+layout: about 
+title: A propos
+---
+
+<div class="musicians">
+  <h1 class="title">Musiciens</h1>
+  {%- for musician in site.musicians -%}
+    <div class="musician">
+      <img class="picture" src="https://placekitten.com/g/200/200">
+      <div class="info">
+        <h2 class="name">{{ musician.name | escape }}</h2>
+        <p class="description">{{ musician.content }}</p>
+      </div>
+    </div>
+  {%- endfor -%}
+</div>

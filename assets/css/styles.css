@@ -22,6 +22,10 @@ body.events {
   background: #00385b;
 }
 
+body.about {
+  background: #fafafa;
+}
+
 .welcome-banner {
   position: relative;
   box-sizing: border-box;
@@ -125,6 +129,11 @@ body.events {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.6) 100%);
 }
 
+.about .toolbar {
+  background: #00385b;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 .toolbar > a {
   color: white;
   text-decoration: none;
@@ -167,4 +176,60 @@ body.events {
 .event-container > .date {
   font-size: 1.6em;
   padding: 8px 0;
+}
+
+.musicians {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 88px;
+}
+
+.musicians .title {
+  padding-bottom: 16px;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+.musician {
+  display: flex;
+  margin-bottom: 24px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.musician:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.musician:nth-child(odd) {
+  flex-direction: row;
+}
+
+.musician .info {
+  flex: 1;
+}
+
+.musician:nth-child(even) .info {
+  padding: 16px 24px 16px 16px;
+}
+
+.musician:nth-child(odd) .info {
+  padding: 16px 16px 16px 24px;
+}
+
+.musician .name {
+  font-size: 1.8em;
+  padding-bottom: 16px;
+  font-weight: normal;
+}
+
+.musician .description {
+  text-align: justify;
+}
+
+.musician .picture {
+  width: 200px;
+  height: 200px;
 }

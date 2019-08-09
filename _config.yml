@@ -1,6 +1,9 @@
 title: Major Set
 collections:
   events:
-    titles: events
+    titles: Events
+    output: false
+  musicians:
+    titles: Musicians
     output: false
 future: true
