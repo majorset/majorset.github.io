@@ -236,17 +236,19 @@ body.about {
 
 .gallery {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 864px;
   padding: 48px 0;
 }
 
 .gallery .pictures {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery > .pictures > a > img {
   width: 200px;
   height: 200px;
+  padding: 8px;
 }
 
 .gallery .title {
