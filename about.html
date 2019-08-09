@@ -5,7 +5,8 @@ title: A propos
 
 <div class="musicians">
   <h1 class="title">Musiciens</h1>
-  {%- for musician in site.musicians -%}
+  {% assign sorted = site.musicians | sort: 'id' %}
+  {%- for musician in sorted -%}
     <div class="musician">
       <img class="picture" src="https://placekitten.com/g/200/200">
       <div class="info">
