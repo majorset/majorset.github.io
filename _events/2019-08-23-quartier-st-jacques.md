@@ -5,3 +5,4 @@ type: Concert gratuit
 address: Place du quartier Saint-Jacques, 1420 Braine-l'Alleud
 
 ---
+Concert détente en plein air autour d'un verre.
