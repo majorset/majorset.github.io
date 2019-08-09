@@ -1,0 +1,20 @@
+---
+layout: events 
+title: Events
+---
+
+<div class="events-container">
+  {%- for event in site.events -%}
+  <div class="event-container">
+    <p class="label">{{ event.title | escape }}</p>
+    <p class="date">
+<span class="mdi mdi-clock-outline"></span>
+    {{ event.date | date: "%d %B %Y" }}
+    </p>
+    {%- if event.type -%}
+    <p class="type">{{ event.type | escape }}</p>
+    {%- endif -%}
+    <p class="content">{{ event.content }}</p>
+  </div>
+  {%- endfor -%}
+</div>

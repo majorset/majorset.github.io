@@ -1,0 +1,6 @@
+title: Major Set
+collections:
+  events:
+    titles: events
+    output: false
+future: true
