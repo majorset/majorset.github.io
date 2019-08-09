@@ -1,5 +1,5 @@
 ---
 name: Fanny
----
 
-Hello
+---
+Instruments : Batterie, percussions.
