@@ -4,4 +4,4 @@ name: Coline
 ---
 Instruments : Chant, saxophone, clarinette, trompette.
 
-Particularités : création 
+Coline, notre voix lead, 
