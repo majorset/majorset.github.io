@@ -1,5 +1,7 @@
 ---
 name: Coline
----
 
-La description de Coline
+---
+Instruments : Chant, saxophone, clarinette, trompette.
+
+Particularités : création 
