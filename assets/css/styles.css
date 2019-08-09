@@ -237,7 +237,7 @@ body.about {
 .gallery {
   margin: 0 auto;
   max-width: 960px;
-  padding-top: 24px;
+  padding: 48px 0;
 }
 
 .gallery .pictures {
@@ -250,7 +250,12 @@ body.about {
 }
 
 .gallery .title {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: normal;
   padding: 8px 0 16px 0;
+}
+
+.footer {
+  background: #112f41;
+  min-height: 48px;
 }
