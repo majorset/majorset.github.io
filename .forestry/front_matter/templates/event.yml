@@ -27,3 +27,5 @@ fields:
   config:
     required: false
   label: Address
+pages:
+- _events/2019-08-23-quartier-st-jacques.md
