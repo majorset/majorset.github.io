@@ -1,6 +1,7 @@
 ---
-label: Event
+label: Events
 hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
