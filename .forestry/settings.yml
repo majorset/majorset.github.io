@@ -15,6 +15,8 @@ sections:
   label: Events
   create: all
   match: "**/*"
+  templates:
+    - event
 - type: directory
   path: _musicians
   label: Musicians
