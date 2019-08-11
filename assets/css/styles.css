@@ -238,6 +238,7 @@ body.about {
   margin: 0 auto;
   max-width: 864px;
   padding: 36px 0 0 0;
+  box-sizing: border-box;
 }
 
 .gallery .pictures {
@@ -247,6 +248,7 @@ body.about {
 
 .tracks .track {
   padding: 0 8px;
+  box-sizing: border-box;
 }
 
 .gallery > .pictures > a > img {
