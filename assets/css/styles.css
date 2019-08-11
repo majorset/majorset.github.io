@@ -234,15 +234,19 @@ body.about {
   height: 200px;
 }
 
-.gallery {
+.gallery, .tracks {
   margin: 0 auto;
   max-width: 864px;
-  padding: 48px 0;
+  padding: 36px 0 0 0;
 }
 
 .gallery .pictures {
   display: flex;
   flex-wrap: wrap;
+}
+
+.tracks .track {
+  padding: 0 8px;
 }
 
 .gallery > .pictures > a > img {
@@ -251,7 +255,7 @@ body.about {
   padding: 8px;
 }
 
-.gallery .title {
+.gallery .title, .tracks .title {
   font-size: 1.4em;
   font-weight: normal;
   padding: 8px 8px 16px 8px;
@@ -260,4 +264,5 @@ body.about {
 .footer {
   background: #112f41;
   min-height: 48px;
+  margin: 48px 0 0 0;
 }
