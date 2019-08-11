@@ -1,4 +1,5 @@
 title: Major Set
+url: https://majorset.be
 gh_url: https://github.com/majorset/majorset.github.io/raw/master
 collections:
   events:
@@ -8,3 +9,5 @@ collections:
     titles: Musicians
     output: false
 future: true
+plugins:
+  - jekyll-sitemap
