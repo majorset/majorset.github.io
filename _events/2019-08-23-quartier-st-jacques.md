@@ -1,7 +1,7 @@
 ---
 title: Apéro Brainois
-date: 2019-08-23T17:00:00.000+00:00
-type: Concert gratuit
+date: 2019-08-23 16:30:00 +0000
+type: Concert gratuit, 18h30
 address: Place du quartier Saint-Jacques, 1420 Braine-l'Alleud
 
 ---
