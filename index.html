@@ -1,5 +1,6 @@
 ---
 layout: default
+
 ---
 <div class="welcome-banner">
   <div class="welcome-banner-bg"></div>
@@ -7,7 +8,7 @@ layout: default
   <h2 class="welcome-banner-subtitle">Swing music band</h2>
 
   <div class="welcome-banner-dates">
-    <h3 class="welcome-banner-dates-label">Upcoming dates</h3>
+    <h3 class="welcome-banner-dates-label">Concerts</h3>
     {%- for event in site.events -%}
     <a class="welcome-banner-date" href="events.html#{{ event.id }}">
       <p class="label">{{ event.title | escape }}</p>
