@@ -28,6 +28,6 @@ fields:
     required: false
   label: Address
 pages:
-- _events/soirées-métissées.md
 - _events/nocturnes-des-bibliothèques.md
+- _events/soirées-métissées.md
 - _events/vernissage-du-parcours-d-artistes-de-waterloo.md
