@@ -28,6 +28,7 @@ fields:
     required: false
   label: Address
 pages:
+- _events/soirées-métissées.md
+- _events/2019-08-23-quartier-st-jacques.md
 - _events/nocturnes-des-bibliothèques.md
 - _events/vernissage-du-parcours-d-artistes-de-waterloo.md
-- _events/2019-08-23-quartier-st-jacques.md
